@@ -4,7 +4,7 @@
 ; Link it:              ld data_types.o -o data_types
 ; Run the file          ./data_types
 
-section .data
+section .datagdb 
     ; Basic integer types
     myByte   db  0x41            ; 1 byte
     myWord   dw  0x4243          ; 2 bytes
