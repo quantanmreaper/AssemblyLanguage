@@ -8,7 +8,7 @@ section .text
 
 _start:
 
-    mov bx, array          
+    mov ebx, array          
 
     mov dl, [bx]
 
